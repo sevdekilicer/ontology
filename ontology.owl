@@ -1,0 +1,487 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:c3372ed3-3a3a-4345-9423-bb7fb823fe0f#"
+     xml:base="urn:webprotege:ontology:c3372ed3-3a3a-4345-9423-bb7fb823fe0f"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:c3372ed3-3a3a-4345-9423-bb7fb823fe0f"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R71TwhGGLALxTHVCNBbKixW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R71TwhGGLALxTHVCNBbKixW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9sJFYF0Llzt35SB2xsqmPu"/>
+        <dc:contributor xml:lang="tr">Selin Siral</dc:contributor>
+        <dc:creator xml:lang="he">Yuval Noah Harari</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:description xml:lang="tr">21. yüzyılın en çok ses getiren düşünürlerinden Yuval Noah Harari, ilk kitabı Sapiens’te insanın nasıl önemsiz bir hayvandan dünyanın efendisine dönüştüğünü, ikinci kitabı Homo Deus’ta çarpıcı öngörüleriyle insanlığın ölümsüzlük, mutluluk ve tanrısallık peşindeki yolculuğunu ele almıştı.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786052205082</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Kolektif Kitap</dc:publisher>
+        <dc:rights xml:lang="tr">Kolektif Kitap</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yuval Noah Harari</dc:rights>
+        <dc:subject xml:lang="tr">Dünya politikası</dc:subject>
+        <dc:subject xml:lang="tr">Modern uygarlık</dc:subject>
+        <dc:title xml:lang="tr">21.Yüzyıl için 21 Ders</dc:title>
+        <rdfs:label>21.Yüzyıl için 21 Ders</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R75py3zlSY77Wj7NYTPyBUz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R75py3zlSY77Wj7NYTPyBUz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpjpFYGGP7KGR7FJV7dmR0"/>
+        <rdfs:label>Cumhuriyet tarihi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7IGAekXREN6mSkLyFQgAVi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7IGAekXREN6mSkLyFQgAVi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7a9utPOKLYxTgq5PnbYGji"/>
+        <dc:contributor xml:lang="tr">Gül Çağalı Güven</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jack Goody</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</dc:date>
+        <dc:description xml:lang="tr">Tarih Hırsızlığı, tarihyazımı aracılığıyla tarihin Batı tarafından ele geçirilişini anlatıyor. Bu &quot;hırsızlık&quot;, geçmişin çoğu zaman Batı Avrupa ölçeğinde yaşanmış süreçlere göre kavramsallaştırılıp sunulmasını, ardından da dünyanın geri kalanına dayatılmasını ifade ediyor.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786053605324</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jack Goody</dc:rights>
+        <dc:rights xml:lang="tr">İş Bankası Kültür Yayınları</dc:rights>
+        <dc:subject xml:lang="tr">Felsefe ve kuramı</dc:subject>
+        <dc:subject xml:lang="tr">Müze hırsızlığı</dc:subject>
+        <dc:title xml:lang="tr">Tarih Hırsızlığı</dc:title>
+        <rdfs:label>Tarih Hırsızlığı</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7a9utPOKLYxTgq5PnbYGji -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7a9utPOKLYxTgq5PnbYGji">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpjpFYGGP7KGR7FJV7dmR0"/>
+        <rdfs:label>Kuramsal tarih</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7jjePpOAQLiwt2vl665HRn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7jjePpOAQLiwt2vl665HRn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R75py3zlSY77Wj7NYTPyBUz"/>
+        <dc:creator xml:lang="tr">Falih Rıfkı Atay</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çankaya: Atatürk Devri Hatıraları Falih Rıfkı Atay&apos;ın Mustafa Kemal Atatürk&apos; ün yaşamını ve Türk Kurtuluş Savaşı&apos; nı anlattığı anı türünde eseridir.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789756461051</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Pozitif Yayıncılık</dc:publisher>
+        <dc:rights xml:lang="tr">Falih Rıfkı Atay</dc:rights>
+        <dc:rights xml:lang="tr">Pozitif Yayıncılık</dc:rights>
+        <dc:subject xml:lang="tr">Atatürk</dc:subject>
+        <dc:subject xml:lang="tr">Cumhuriyet tarihi</dc:subject>
+        <dc:title xml:lang="tr">Çankaya</dc:title>
+        <rdfs:label>Çankaya</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8oaNUHQhRqPSo48RvqqW5t -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8oaNUHQhRqPSo48RvqqW5t">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpjpFYGGP7KGR7FJV7dmR0"/>
+        <rdfs:label>Osmanlı tarihi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9VPFtjW7HkulUW7CsKko98 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9VPFtjW7HkulUW7CsKko98">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9sJFYF0Llzt35SB2xsqmPu"/>
+        <dc:creator xml:lang="tr">Emrah Safa Gürkan</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:description xml:lang="tr">Elinizdeki kitap size tarihin şifrelerini, El Dorado&apos;nun yerini, Karındeşen Jack&apos;in kim olduğunu ya da simya taşının hikmetini öğretmeyecek.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786057635402</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Kronik Kitap</dc:publisher>
+        <dc:rights xml:lang="tr">Emrah Safa Gürkan</dc:rights>
+        <dc:rights xml:lang="tr">Kronik Kitap</dc:rights>
+        <dc:subject xml:lang="tr">Dünya tarihi</dc:subject>
+        <dc:subject xml:lang="tr">Mizah tarihi</dc:subject>
+        <dc:title xml:lang="tr">Bunu Herkes Bilir: Tarihteki Yanlış Sorulara Doğru Cevaplar</dc:title>
+        <rdfs:label>Bunu Herkes Bilir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9lGwwjJ7CmthpaguLbPHA3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9lGwwjJ7CmthpaguLbPHA3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBcxGqPtnZ58WPfuwXHX95Y"/>
+        <rdfs:label>History books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9sJFYF0Llzt35SB2xsqmPu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9sJFYF0Llzt35SB2xsqmPu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpjpFYGGP7KGR7FJV7dmR0"/>
+        <rdfs:label>Dünya tarihi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9wjd8qgBsBARKoKBb0tVVO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9wjd8qgBsBARKoKBb0tVVO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBiGRb9sWqVYDShpOOyeEsS"/>
+        <dc:contributor xml:lang="tr">Ezgi Gültekin</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karen Armstrong</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tek bir Tanrı’nın varlığı inancı –Allah, Tanrı, Yahveh– 4000 yıldır sürüyor. Tanrı’nın tarihsel öyküsü, aynı zamanda insanoğlunun mücadele öyküsüne denk düşüyor. Musevilik, Hristiyanlık ve İslamiyet, Tanrı’nın iyi olduğunu iddia ederken, organize din şiddete ve kökü kazınamaz bir önyargıya sık sık katalizör oluyor. Bu müthiş, geniş çaplı ve orijinal inanç serüveninde, Karen Armstrong, toplumların tek Tanrı inancına olan mutlak sadakatini ve bunun yarattığı pek çok çelişkili görüşü inceliyor.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786052990612</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Pegasus Yayınları</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karen Armstrong</dc:rights>
+        <dc:rights xml:lang="tr">Pegasus Yayınları</dc:rights>
+        <dc:subject xml:lang="tr">Tanrı</dc:subject>
+        <dc:title xml:lang="tr">Tanrı&apos;nın Tarihi</dc:title>
+        <rdfs:label>Tanrı&apos;nın Tarihi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBO4PHyJpEhs6YU1KnLUUJz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBO4PHyJpEhs6YU1KnLUUJz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8oaNUHQhRqPSo48RvqqW5t"/>
+        <dc:creator xml:lang="tr">Cemal Kafadar</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:description xml:lang="tr">İslam ve Bizans coğrafyaları arasında, sadece fiziksel olarak değil, siyasi ve kültürel olarak da iki dünya arasında bir uç mevkiine yerleşmiş küçük bir beyliğin, kendisini dünya Müslümanlarının lideri ve Doğu Roma İmparatorluğu’nun varisi olarak gören merkezileşmiş bir imparatorluk haline dönüşmesinin izini takip eden İki Cihan Âresinde, Osmanlı İmparatorluğu’nun doğuşuna dair özgün bir bakış açısı sunuyor.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786053161622</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Metis Yayıncılık</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cemal Kafadar</dc:rights>
+        <dc:rights xml:lang="tr">Metis Yayıncılık</dc:rights>
+        <dc:subject xml:lang="tr">Osmanlı Devleti Kuruluşu</dc:subject>
+        <dc:title xml:lang="tr">İki Cihan Aresinde-Osmanlı Devletinin Kuruluşu</dc:title>
+        <rdfs:label>İki Cihan Aresinde-Osmanlı Devletinin Kuruluşu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBcxGqPtnZ58WPfuwXHX95Y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBcxGqPtnZ58WPfuwXHX95Y">
+        <rdfs:label>Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBiGRb9sWqVYDShpOOyeEsS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBiGRb9sWqVYDShpOOyeEsS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpjpFYGGP7KGR7FJV7dmR0"/>
+        <rdfs:label>Dinler tarihi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpjpFYGGP7KGR7FJV7dmR0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBpjpFYGGP7KGR7FJV7dmR0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9lGwwjJ7CmthpaguLbPHA3"/>
+        <rdfs:label>Type of History Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCQFwFpVGGYFfaLi6cKRikn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCQFwFpVGGYFfaLi6cKRikn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R75py3zlSY77Wj7NYTPyBUz"/>
+        <dc:creator xml:lang="tr">Falih Rıfkı Atay</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:description xml:lang="tr">Zeytindağı, Falih Rıfkı Atay&apos;ın yedek subay olarak katıldığı I. Dünya Savaşı anı ve izlenimlerinden oluşan ve Osmanlı İmparatorluğu’nun savaşta içine düştüğü durumu ortaya koyan eseri.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789756461075</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Pozitif Yayıncılık</dc:publisher>
+        <dc:rights xml:lang="tr">Falih Rıfkı Atay</dc:rights>
+        <dc:rights xml:lang="tr">Pozitif Yayıncılık</dc:rights>
+        <dc:subject xml:lang="tr">Türk romanı</dc:subject>
+        <dc:title xml:lang="tr">Zeytindağı</dc:title>
+        <rdfs:label>Zeytindağı</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCqQkybrmwREMadfaJyMzdh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCqQkybrmwREMadfaJyMzdh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R75py3zlSY77Wj7NYTPyBUz"/>
+        <dc:creator xml:lang="tr">Halil İnalcık</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarih alanında dünyanın tartışmasız en büyük isimlerinden biri olan Halil İnalcık’ın, Osmanlı sosyal tarihi ve modern Türkiye’nin ortaya çıkışıyla ilgili çalışmaları bir arada.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789752430860</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Kronik Kitap</dc:publisher>
+        <dc:rights xml:lang="tr">Halil İnalcık</dc:rights>
+        <dc:subject xml:lang="tr">Osmanlı Devleti</dc:subject>
+        <dc:title xml:lang="tr">İmparatorluktan Cumhuriyete</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İmparatorluktan Cumhuriyete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDg8QonhXaP5hQKrwtu2YmV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDg8QonhXaP5hQKrwtu2YmV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7a9utPOKLYxTgq5PnbYGji"/>
+        <dc:contributor xml:lang="tr">Nihan Özyıldırım</dc:contributor>
+        <dc:contributor xml:lang="tr">Savaş Kılıç</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul Veyne</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</dc:date>
+        <dc:description xml:lang="tr">Paul Veyne&apos;in tarihin epistemolojisi konusunda bugün bir klasik haline gelmiş olan kitabı, tarih yazmanın ne demek olduğunu, tarih yazarken aslında ne yaptığımızı, tarihin bir bilim olup olmadığını, hakikatle ve değerlerle ilişkisini ve tarihsel &quot;yasaları&quot; tartışıyor.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789753429542</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Metis Yayıncılık</dc:publisher>
+        <dc:rights xml:lang="tr">Metis Yayıncılık</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul Veyne</dc:rights>
+        <dc:subject xml:lang="tr">Tarih yazımı</dc:subject>
+        <dc:title xml:lang="tr">Tarih Nasıl Yazılır?</dc:title>
+        <rdfs:label>Tarih Nasıl Yazılır?</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlOwkqIY9MDWC2rOkih4TN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDlOwkqIY9MDWC2rOkih4TN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8oaNUHQhRqPSo48RvqqW5t"/>
+        <dc:creator xml:lang="tr">Halil İnalcık</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:description xml:lang="tr">Devlet-i &apos;Aliyye, Osmanlı tarihçiliğinin çağımızdaki en büyük isimlerinden Halil İnalcık&apos;ın yarım yüzyılı aşan çalışmalarının bir ürünü. Eserin bu ilk cildi, Osmanlı Devleti&apos;nin bir beylikten Orta-Doğu ve Balkanlar&apos;ı hükmü altına alan güçlü ve köklü bir imparatorluk haline gelişine odaklanıyor.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789944886451</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:rights xml:lang="tr">Halil İnalcık</dc:rights>
+        <dc:rights xml:lang="tr">İş Bankası Kültür Yayınları</dc:rights>
+        <dc:subject xml:lang="tr">Osmanlı İmparatorluğu</dc:subject>
+        <dc:title xml:lang="tr">Devlet-i Aliyye - Osmanlı İmparatorluğu Üzerine Araştırmalar 1</dc:title>
+        <rdfs:label>Devlet-i Aliyye - Osmanlı İmparatorluğu Üzerine Araştırmalar 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJ8II1QILMOeBRL0hGAt8A -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RJ8II1QILMOeBRL0hGAt8A">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9sJFYF0Llzt35SB2xsqmPu"/>
+        <dc:contributor xml:lang="tr">Selan Y. Kölay</dc:contributor>
+        <dc:creator xml:lang="tr">Bernard Lewis</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:description xml:lang="tr">Hıristiyanlığın başlangıcından günümüze Ortadoğu&apos;nun iki bin yıllık tarihini dünyaca ünlü tarihçi Bernard Lewis&apos;in bilimsel bir yaklaşımla ve etkileyici bir dille anlattığı &apos;Ortadoğu&apos; kitabı çıktı.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789755094427</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Arkadaş Yayıncılık</dc:publisher>
+        <dc:rights xml:lang="tr">Arkadaş Yayıncılık</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bernard Lewis</dc:rights>
+        <dc:subject xml:lang="tr">Ortadoğu tarihi</dc:subject>
+        <dc:title xml:lang="tr">Ortadoğu</dc:title>
+        <rdfs:label>Ortadoğu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSdkyiIdlshWTNZdA51CTS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RSdkyiIdlshWTNZdA51CTS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBiGRb9sWqVYDShpOOyeEsS"/>
+        <dc:contributor xml:lang="tr">Tuba Öztürk</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lev Nikolayeviç Tolstoy</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:description xml:lang="tr">Kitap Açıklaması Rus edebiyatının devlerinden olan Tolstoy (1828-1910); Din Nedir? adlı eserinde, resmi Hıristiyanlık ve Kilise&apos;yi sorgulayıp, insanın var oluş gayesi, Tanrı ve Dünya ile nasıl bir bağ kurması gerektiği sorusuna eğiliyor.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786059657914</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Ema Kitap</dc:publisher>
+        <dc:rights xml:lang="tr">Kaknüs Yayınları</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lev Nikolayeviç Tolstoy</dc:rights>
+        <dc:subject xml:lang="tr">Din</dc:subject>
+        <dc:subject xml:lang="tr">Felsefe</dc:subject>
+        <dc:title xml:lang="tr">Din Nedir?</dc:title>
+        <rdfs:label>Din Nedir?</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdKe7VCREov3WiEugQoEX1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RdKe7VCREov3WiEugQoEX1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8oaNUHQhRqPSo48RvqqW5t"/>
+        <dc:creator xml:lang="tr">Erhan Afyoncu</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</dc:date>
+        <dc:description xml:lang="tr">Sorularla Osmanlı Tarihi&apos;nin anlatıldığı bu kitapta merak ettiğiniz birçok sorunun cevabını bulacaksınız...</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786054052141</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Yeditepe Yayınevi</dc:publisher>
+        <dc:rights xml:lang="tr">Erhan Afyoncu</dc:rights>
+        <dc:rights xml:lang="tr">Yeditepe Yayınevi</dc:rights>
+        <dc:subject xml:lang="tr">Osmanlı İmparatorluğu dönemi</dc:subject>
+        <dc:title xml:lang="tr">Sorularla Osmanlı İmparatorluğu</dc:title>
+        <rdfs:label>Sorularla Osmanlı İmparatorluğu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RoarhlK5Tw2O1Nxqj2Jimh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RoarhlK5Tw2O1Nxqj2Jimh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7a9utPOKLYxTgq5PnbYGji"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salih Özbaran</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Son yıllarda tarih bilgisi dalının olağanüstü bir ilgi gördüğünü söylemek sır değil. Ancak bu ilgi, tarihçiliğin kendi bünyesinde / yolunda geliştidiği konu ve yöntemlerde işlenmiş alan olmaktan çıktı.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarihçi Kitabevi</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salih Özbaran</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarihçi Kitabevi</dc:rights>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarih eğitimi</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarih yazarlığı</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarihçilik Zor Zanaat</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarihçilik Zor Zanaat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuOITUJ92S19T825axfTEQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RuOITUJ92S19T825axfTEQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBiGRb9sWqVYDShpOOyeEsS"/>
+        <dc:contributor xml:lang="tr">Lale Arslan Özcan</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mircea Eliade</dc:creator>
+        <dc:date xml:lang="tr">2017</dc:date>
+        <dc:description xml:lang="tr">Mircea Eliade bir kere daha derin bilgisini ve sentez yapma konusundaki gücünü ortaya koyarak dünyadaki dinlerin anlamlarını ve tarihlerini aydınlatmayı amaçlıyor. Bunun için de dinsel tecrübeyi insanın, geçmişten günümüze kadar pek çok kültürde farklı şekillerde tezahür eden kutsal alan içerisinde yaşama gayreti üzerinden çerçevelendiriyor.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786051715544</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Alfa Yayıncılık</dc:publisher>
+        <dc:rights xml:lang="tr">Alfa Yayıncılık</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mircea Eliade</dc:rights>
+        <dc:subject xml:lang="tr">Dinler tarihi</dc:subject>
+        <dc:title xml:lang="tr">Dinler Tarihine Giriş</dc:title>
+        <rdfs:label>Dinler Tarihine Giriş</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
